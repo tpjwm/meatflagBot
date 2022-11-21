@@ -18,6 +18,3 @@ async def on_message(message):
 keep_alive()
 token = os.environ.get("DISCORD_BOT_SECRET_R")
 bot.run(token)
-tokenRaider = os.environ.get("DISCORD_BOT_SECRET_R")
-
-bot.run(tokenRaider)
